@@ -1,0 +1,187 @@
+
+.but{
+    width:25%;
+    font-weight:600;
+    font-size:18px;
+    letter-spacing: 10px;
+    background-image: linear-gradient(90deg, #FC466B, #3F5EFB);
+}
+.back{
+    background-image: linear-gradient(180deg, #FC466B, #3F5EFB);
+}
+.back1{
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    
+}
+.back2{
+    background-color: #0a2351;
+}
+.h22{
+    font-weight:700
+}
+.cardd{
+    color: rgb(211, 210, 208);
+}
+.textt{
+    word-spacing: 2vw;
+}
+
+.but:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+.but1{
+    font-weight:600;
+     font-size: 15px;
+     border: 2px solid aliceblue;
+     background-color: transparent;
+}
+.but1:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    background-image: linear-gradient(90deg, #FC466B, #3F5EFB,transparent);
+}
+.work{
+    
+    font-size: 65px;
+    padding-top: 2vh;
+    text-shadow: 0 0 10px rgba(250, 252, 250, 0.8);
+    word-spacing: 3vw; 
+    font-weight: 606;
+}
+.names{
+    color: rgb(211, 210, 208);
+    font-weight: 600;
+    font-size: 21px;
+}
+@media (max-width: 576px) {
+    .names{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .work{
+        font-size: 30px;
+    }
+    .but{
+        width:80%;
+        font-size: 15px;
+        letter-spacing: 6px;
+    }
+}
+/* YourComponent.css */
+/* YourComponent.css */
+/* YourComponent.css */
+
+.custom-card {
+  position: relative;
+}
+
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(38,38,166,1) 99%, rgba(249,250,251,1) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-img-container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-img-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.custom-button {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none; /* hide the button by default */
+}
+
+.card-img-container:hover .custom-button {
+  display: block; /* show the button on hover */
+}
+/* YourStyles.css */
+
+.custom-card1 {
+  
+
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-image1 {
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card1:hover .card-image1 {
+  transform: scale(1.04);
+}
+/* ContactForm.css */
+
+.custom-form {
+  max-width: 400px;
+  height: 60vh;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #18245d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form label {
+  color: #fff;
+  font-weight: bold;
+}
+
+.custom-form textarea {
+  resize: none;
+}
+
+.custom-form button {
+  margin-top: 10px;
+}
+
+
+.workk{
+  background:url("../assests/istockphoto-1419766496-170667a.webp");
+  height:60vh;
+}
+@media (max-width: 576px) {
+  .workk{
+    height: auto;
+  }
+  .heightt{
+    height: auto;
+  }
+}
+.heightt{
+  height: 80vh;
+}
